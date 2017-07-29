@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPageBg"
+    tools:context="com.example.administrator.hlfrobot.ui.connect.child.ActionActivity">
+    <include layout="@layout/layout_toolbar_aty"/>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/action_rl"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--<View-->
+        <!--android:id="@+id/common_action_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dp"-->
+        <!--android:background="@color/colorTheme" />-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/common_action_tv"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@id/common_action_view"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_margin="@dimen/mid_margin"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="常用动作"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@color/colorTheme"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="15sp" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/common_action_rv"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="150dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@id/common_action_tv"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_margin="@dimen/mid_margin"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:columnCount="2" />&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+
+    <ExpandableListView
+        android:id="@+id/action_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mid_margin"
+        android:layout_marginRight="@dimen/mid_margin" />
+
+</LinearLayout>
